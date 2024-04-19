@@ -12,12 +12,6 @@ link_directories(${CMAKE_SOURCE_DIR}/external)
 include_directories(base include)
 
 add_executable(${PROJECT_NAME} main.cpp
-        tuner/tuner.cpp
-        tuner/genetic_algorithm.cpp
-        tuner/all_search.cpp
-        tuner/grid_search.cpp
-        tuner/random_search.cpp
-        tuner/strategy_factory.cpp
         base/utils/Utils.cpp 
         base/utils/GraphUtils.cpp 
         base/utils/CommonGraphOptions.cpp
